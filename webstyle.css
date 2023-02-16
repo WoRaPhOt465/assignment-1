@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgb(36, 35, 35);
+  display: block;
+}
+
+h1{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+    position: relative;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 20px;
+}
+
+
+.navbar{
+    background-color: black;
+
+}
+.nav-title{
+    display: inline-block;
+}
+.nav-menu{
+   display: inline;
+    color: white;
+    padding: 10px 15px;   
+     cursor: pointer;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   position:relative;
+   left: 400px;
+   font-weight: bold;
+   justify-content: space-around;
+}
+
+
+.intro-text{
+    color: rgb(60, 237, 2);
+   position: absolute;
+   top: 170px;
+left: 250px;
+font-size: 30px;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+cursor: pointer;
+
+}
+
+.intro-text2{
+    color: white;
+   position: absolute;
+   top: 220px;
+left: 250px;
+font-size: 16px;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.intro-text:hover{
+    color: rgb(210, 15, 15);
+}
+.text-body{
+    color: rgba(255, 255, 255, 0.826);
+    position: absolute;
+    top: 310px;
+ left: 250px;
+ font-size: 16px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+ #example-lan{
+    color: rgba(255, 255, 255, 0.826);
+    top: 375px;
+ left: 480px;
+ position: absolute;    
+ font-size: 16px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+
+ .woraphot{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 600px;
+    bottom: 0px;
+    
+ }
+footer{
+    position:absolute;
+   left: 0;
+   top: 700px;
+   width: 100%;
+   height: 165px;
+   background-color: rgb(49, 47, 47);
+  
+   
+}
+
+.contacts{
+     color: rgb(60, 237, 2) ;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     position: absolute;
+     top: 10px;
+     left: 250px;
+}
+ 
+.contacts:hover{
+    color: rgb(210, 15, 15);
+}
+
+.github{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 250px;
+   top: 40px;
+  cursor: pointer;
+}
